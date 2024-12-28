@@ -126,6 +126,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\DInventario.vb" />
+    <Compile Include="Usuario\ActualizarProducto\frmActualizarProducto.Designer.vb">
+      <DependentUpon>frmActualizarProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\ActualizarProducto\frmActualizarProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario\CrearProducto\frmCrearProducto.Designer.vb">
+      <DependentUpon>frmCrearProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\CrearProducto\frmCrearProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario\CrearProducto\frmreset.Designer.vb">
+      <DependentUpon>frmreset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\CrearProducto\frmreset.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Usuario\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +168,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Producto.vb" />
+    <Compile Include="Usuario\Inventario Rapido\frmInventarioRapido.Designer.vb">
+      <DependentUpon>frmInventarioRapido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\Inventario Rapido\frmInventarioRapido.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Usuario\FrmModificar.Designer.vb">
       <DependentUpon>FrmModificar.vb</DependentUpon>
     </Compile>
@@ -158,6 +182,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Usuario\ActualizarProducto\frmActualizarProducto.resx">
+      <DependentUpon>frmActualizarProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario\CrearProducto\frmCrearProducto.resx">
+      <DependentUpon>frmCrearProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario\CrearProducto\frmreset.resx">
+      <DependentUpon>frmreset.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Usuario\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +199,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario\Inventario Rapido\frmInventarioRapido.resx">
+      <DependentUpon>frmInventarioRapido.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario\FrmModificar.resx">
       <DependentUpon>FrmModificar.vb</DependentUpon>

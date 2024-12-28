@@ -44,6 +44,11 @@ Public Class Form1
         If e.KeyCode = Keys.Down Then
             lstSugerencias.Select()
         End If
+        If e.KeyCode = Keys.F5 Then
+            frmInventarioRapido.ShowDialog()
+            txtCodigo.Text = frmInventarioRapido.dtgProductos.Item(0, frmInventarioRapido.dtgProductos.CurrentRow.Index).Value.ToString
+            txtPrecioNuevo.Select()
+        End If
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtCodigo.Select()
@@ -90,6 +95,7 @@ Public Class Form1
             limpiar()
         Else
             MsgBox("El Precio no puede ser 0")
+            txtPrecioNuevo.Select()
         End If
         seleccionarUltimo()
 
@@ -212,5 +218,15 @@ Public Class Form1
         If e.KeyCode = Keys.Enter Then
             agregarProducto()
         End If
+    End Sub
+
+    Private Sub txtNuevoPrecio2_KeyUp(sender As Object, e As KeyEventArgs) Handles txtNuevoPrecio2.KeyUp
+        If e.KeyCode = Keys.Enter Then
+            agregarProducto()
+        End If
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        frmCrearProducto.Show()
     End Sub
 End Class

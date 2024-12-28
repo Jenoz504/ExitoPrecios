@@ -89,3 +89,7 @@ C:\Users\Exito\Desktop\ExitoPrecios\ExitoPrecios\obj\Debug\ExitoPrecios.exe
 C:\Users\Exito\Desktop\ExitoPrecios\ExitoPrecios\obj\Debug\ExitoPrecios.xml
 C:\Users\Exito\Desktop\ExitoPrecios\ExitoPrecios\obj\Debug\ExitoPrecios.pdb
 C:\Users\Exito\Desktop\ExitoPrecios\ExitoPrecios\obj\Debug\ExitoPrecios.FrmModificar.resources
+C:\Users\Exito\Desktop\ExitoPrecios\ExitoPrecios\obj\Debug\ExitoPrecios.frmInventarioRapido.resources
+C:\Users\Exito\Desktop\ExitoPrecios\ExitoPrecios\obj\Debug\ExitoPrecios.frmActualizarProducto.resources
+C:\Users\Exito\Desktop\ExitoPrecios\ExitoPrecios\obj\Debug\ExitoPrecios.frmCrearProducto.resources
+C:\Users\Exito\Desktop\ExitoPrecios\ExitoPrecios\obj\Debug\ExitoPrecios.frmreset.resources
